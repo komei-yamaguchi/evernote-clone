@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint './src/**/*.{js,jsx}'",
-    "lintfix": "eslint --fix './src/**/*.{js,jsx}'"
+    "lintfix": "eslint --fix './src/**/*.{js,jsx}'",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +50,8 @@
   "devDependencies": {
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.19.1"
-  }
+  },
+  "homepage": "https://ihcugamay.github.io/evernote-clone/"
 }
